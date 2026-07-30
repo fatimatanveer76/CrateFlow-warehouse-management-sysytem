@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    @apply bg-slate-50 text-navy-900 dark:bg-slate-925 dark:text-slate-100 transition-colors duration-200;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  ::selection {
+    @apply bg-amber-400/40;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-navy-700 px-4 py-2.5 text-sm font-semibold text-white shadow-card transition hover:bg-navy-600 active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none dark:bg-amber-500 dark:text-navy-950 dark:hover:bg-amber-400;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-navy-800 shadow-card transition hover:border-slate-300 hover:bg-slate-50 active:scale-[0.98] dark:border-navy-600 dark:bg-navy-800 dark:text-slate-100 dark:hover:bg-navy-700;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-4 py-2.5 text-sm font-semibold text-white shadow-card transition hover:bg-red-500 active:scale-[0.98];
+  }
+  .input-field {
+    @apply w-full rounded-lg border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-navy-900 placeholder:text-slate-400 outline-none transition focus:border-navy-500 focus:ring-2 focus:ring-navy-500/20 dark:border-navy-600 dark:bg-navy-800 dark:text-slate-100 dark:focus:border-amber-500 dark:focus:ring-amber-500/20;
+  }
+  .label-field {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400;
+  }
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white shadow-card dark:border-navy-700 dark:bg-navy-800;
+  }
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+  .barcode-strip {
+    @apply bg-barcode bg-repeat-x opacity-90;
+    background-size: 10px 100%;
+  }
+  .sidebar-link {
+    @apply flex items-center gap-3 rounded-lg px-3.5 py-2.5 text-sm font-medium text-navy-200/70 transition hover:bg-white/5 hover:text-white;
+  }
+  .sidebar-link-active {
+    @apply bg-amber-500/15 text-amber-400;
+  }
+}
+
+@keyframes scan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+.animate-scan {
+  animation: scan 1.6s ease-in-out infinite;
+}
