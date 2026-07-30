@@ -70,10 +70,7 @@ src/
 
 The app seeds a few sample categories, suppliers, and products on first run so the dashboard and charts aren't empty. Create your own account from the Signup page — all data (including your account) is stored locally in your browser via LocalStorage, so it's private to your device and persists across refreshes.
 
-## 📸 Screenshots
-![Authentification](screenshots/authentification.png)
-
 
 ## 👤 Author
 
-Built for U Devs — Amazon Warehouse Store Management System (Frontend) internship assignment.
+Fatima Tanveer
