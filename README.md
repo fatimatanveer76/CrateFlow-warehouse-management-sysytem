@@ -2,10 +2,15 @@
 
 A modern, fully responsive warehouse/inventory management web app built with **React**, **Tailwind CSS**, and **LocalStorage** persistence — built for the U Devs Professional Internship frontend assignment.
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite)
+![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=react-router)
+![Context API](https://img.shields.io/badge/Context_API-State_Management-purple)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## ✨ Features
 
 **Core**
