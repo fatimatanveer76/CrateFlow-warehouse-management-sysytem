@@ -9,7 +9,6 @@ A modern, fully responsive warehouse/inventory management web app built with **R
 ![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=react-router)
 ![Context API](https://img.shields.io/badge/Context_API-State_Management-purple)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## ✨ Features
 
